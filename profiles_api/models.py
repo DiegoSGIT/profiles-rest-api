@@ -19,7 +19,7 @@ class UserProfileManager(BaseUserManager):
         user = self.create_user(email=email, name=name, password=password)
         user.is_superuser = True
         user.is_staff = True
-        user.save(ussign=self._db)
+        user.save(using=self._db)
         return user
 
 
