@@ -1,0 +1,1 @@
+# This is a project from Udemy tutorial in Django rest 
